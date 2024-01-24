@@ -8,4 +8,4 @@ Clone the repository to your local machine and follow the individual project ins
 
 ```bash
 git clone https://github.com/Dilzhan-s-Academic/Y1S2-IWT-Tutorials-Labs-SLIIT.git
-cd Y1S2-OOC-Projects
+cd Y1S2-IWT-Tutorials-Labs-SLIIT
