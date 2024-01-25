@@ -1,0 +1,19 @@
+body{
+	background-image:url(https://th.bing.com/th/id/OIP.E7uc3a0yMOIU4_9zEL5nXQHaET?rs=1&pid=ImgDetMain);
+}
+h2{
+	font-family:Arial;
+	color:brown;
+	font-size:36px;
+}
+p{
+	border:2px solid blue;
+	margin-bottom:25px;
+	margin-top:25px;
+	margin-left:50px;
+	margin-right:50px;
+	padding-top:25px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:75px;
+}
