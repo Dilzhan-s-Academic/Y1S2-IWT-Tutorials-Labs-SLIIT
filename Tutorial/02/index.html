@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>IWT Workshop</title>
+		<style>
+			.application{
+				outline: 1px solid black;
+				margin-left:40px;
+				margin-right:auto;
+				padding: 10px;
+				padding-left:10px;
+			}
+			.def{
+				font-weight:bold;
+			}
+			.checklist{
+				font-weight:1;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>IWT Workshop</h1>
+			<form class="application">
+				<lable class="def">Your Name : </lable>
+					<input type="text"><br/>
+				<lable class="def">Your Email : </lable>
+					<input type="text">
+				
+				<br/><br/>
+				
+				<lable class="def"> Your Closet Center :</lable>
+					<select>
+						<option value="Malabe"> Malabe </option>
+						<option value="Kandy">Kandy </option>
+						<option value="Matara">Matara </option>
+						<option value="Jaffna">Jaffna </option>
+						<option value="Metro">Metro </option>
+					</select>
+				
+				<br/><br/>
+				
+				<lable class="def">Select the Session :</lable><br/>
+					<input type="checkbox">Introduction to Web  <br/>
+					<input type="checkbox">HTML & CSS <br/>
+					<input type="checkbox">JavaScript<br/>
+					<input type="checkbox">PHP & MYSQL <br/>
+				
+				<lable class="def">Are You a SLIIT Student?</lable>
+					<input type="radio" name="isStudent" value ="yes">Yes
+					<input type="radio" name="isStudent" value ="no"> No
+					
+				<br/><br/>
+				<input type="submit" value="Register">
+			</form>
+	</body>
+</html>
