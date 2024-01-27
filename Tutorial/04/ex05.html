@@ -1,0 +1,21 @@
+<html>
+    <hrad>
+        
+    </hrad>
+    <body>
+        <form method="post">
+            <lable>Please Enter the Temperature From Fahrenheit : </lable>
+            <input  type="text"/ id="temp" name="temp"><br/>
+            <input type="button" value="Convert" onclick="conver();">
+        </form>
+
+        <script>
+            function conver(){
+                let tempF = parseFloat(document.getElementById("temp").value);
+                let tempC =  Math.round((5/9) * (tempF - 32) * 100) / 100;
+                alert("Temperature From CelCius : " + tempC);
+            }
+            
+        </script>
+    </body>
+</html>

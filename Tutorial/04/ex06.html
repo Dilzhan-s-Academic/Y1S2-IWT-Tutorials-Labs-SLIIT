@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Factorial</title>
+    </head>
+    <body>
+        <script>
+            // using recursion
+            function factorial(Num){
+                if (Num == 1)
+                {
+                    return 1;
+                }
+                return Num * factorial(Num-1);
+            }
+            Num = prompt("Enter the Number : ");
+            alert("Factorial of " + Num + " is : " + factorial(Num));
+        </script>
+    </body>
+</html>
+
+
