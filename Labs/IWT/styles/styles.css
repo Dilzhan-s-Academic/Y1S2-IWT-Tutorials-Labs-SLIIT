@@ -1,0 +1,83 @@
+body {
+    background-image: url("../images/bgimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+h3{
+    font-size: large;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navli {
+    float: left;
+}
+
+#navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navli a:hover {
+    background-color: #111;
+}
+
+.productData {
+    background-color: antiquewhite;
+}
+
+#itemdes{
+    text-align: left;
+}
+
+#itemname{
+    text-align: center;
+}
+lable {
+    color:blue;
+}
+
+footer
+{
+	text-align:center;
+	font-family:times new roman;
+}
+
+table {
+    margin: 10px;
+    margin-top: 15px;
+    border-style: groove;
+    border: 1px solid darkblue;
+    padding: 3px;
+    width:99%;
+}

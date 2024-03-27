@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- add a title (a) -->
+        <title>My Shopping Cart</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="js/myScript.js">
+            document.writeln(Date());
+        </script>
+    </head>
+    <body>
+        <!-- add a logo (b) -->
+        <img src="images/download.jpg" height="200px" width="200px" class="logo">
+        <!-- add a header (c)-->
+        <h2>Shopping Cart</h2>
+        <!-- add a sub-header (c) -->
+        <h3>The Online Shopping Store</h3>
+        <!-- add a horizontal line (d)-->
+        <hr>
+        <!-- add a horizontal menu (e) -->
+        <ul id="nav">
+            <li id="navli"><a href="index.html">Home</a></li>
+            <li id="navli"><a href="news.html">News</a></li>
+            <li id="navli"><a href="index.html">Contact</a></li>
+            <li id="navli"><a href="index.html">About</a></li>
+        </ul>
+
+        <input type="button" value="Iphone Xs" onclick="loadData(0)">
+        <input type="button" value="Iphone Xs Max" onclick="loadData(1)">
+        <input type="button" value="Iphone 8s Plus" onclick="loadData(2)">
+        <input type="button" value="Iphone SE" onclick="loadData(3)">
+        <input type="button" value="Average Price" onclick="priceForLoop()">
+        <input type="button" value="Price Higher than 1000" onclick="loadData()">
+        <input type="button" value="Price Lower than 800" onclick="loadData()">
+        
+        <hr>
+        <div id="div">    
+            <center>
+                <img id="mainimg" src="images/all.png" width="50%">
+                <br/>
+                <p id="desc">Apple leads with its premium iPhones, iPads, and MacBooks, acclaimed for seamless integration and sleek design. Samsung stands out for its diverse Galaxy series, offering innovative features across price ranges. Huawei excels in advanced camera technology with its flagship P and Mate series. Xiaomi provides high-value smartphones with premium features at competitive prices. OnePlus focuses on flagship-level devices with near-stock Android experiences. Google prioritizes camera quality and stock Android in its Pixel series. Oppo innovates with camera tech and stylish designs. Vivo emphasizes camera and audio technology. Motorola offers budget-friendly options with solid performance. Sony targets multimedia enthusiasts with Xperia smartphones. LG's G and V series boast unique designs and innovative features.</p>
+            </center>
+        </div>
+        </center>
+        <!-- add a horizontal line (d)-->
+        <hr>
+        <!-- add a footer (g)-->
+        <footer align="center" class="footer">
+            <p>Created by :Dilshan Yapa</p>
+            <a href="https://courseweb.sliit.lk">visit to our course</a>
+        </footer>
+    </body>
+</html>
